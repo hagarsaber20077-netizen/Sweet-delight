@@ -28,5 +28,5 @@ async function deleteOrder(id) {
     method: "DELETE"
   });
 
-  getOrders(); // refresh
+  getOrders(); 
 }
